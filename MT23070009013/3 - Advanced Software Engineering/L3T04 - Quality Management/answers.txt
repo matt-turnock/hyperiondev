@@ -1,0 +1,28 @@
+1a - Mobile Game app - Testability and understandability could be key here, as without testing
+you could end up with some large bugs in games, that could be exploited to any extent.  But from
+a code side of things understandability is key because games can be complex even without any form
+of graphics engine, adding in graphics increases its complexity significantly.
+
+1b - Banking Application - Here we want security to be at the top, a long with effieciency. 
+Anything banking needs to be secure, but also effiecient as so many transactions happen a day
+there needs to be minimal delay in processing these.
+
+1c - Database for a medical organisation - Security and reliability are key here, as with any
+persons medical data, this should be kept secure and private, as this is one thing protected
+under the Data Protection Act.  We obviously need to take reliability into account also as
+this information needs to be readily available for patients and doctors.
+
+2 - High quality process should lead to high quality products because more attention has been paid
+to specific standards that are required to be met as part of design and analysis.  You would expect
+more testing to be done, more requirements capture, more features, etc.  The problem with this sort
+of process might be that the more standards you adhere to, the larger the project becomes, which in
+turn would cost more money, and take more time to develop.
+
+3 - Inspections can be effective as having other people consider your methods, or approaches may help
+to keep code consistent, it also may help to think in another direction to uncover unexpected errors
+that have yet to be accounted for.  Things that might not be found in an inspection are usually
+uncommon errors, an example of this might be 0 day exploits in libraries.
+
+4 - It is hard to validate external to internal attributes because external attributes are a broad
+spectrum of internal attributes, these internal attributes could be vastly numerous and ever changing
+making it hard or impossible to truely validate against.

@@ -1,0 +1,60 @@
+Scenario 1
+
+define number array to be empty
+define input variable to be 1
+
+while input > 0
+	request input from user
+	check input is a number
+	store input inside number array
+	
+check each number inside number array and output largest
+
+
+
+Scenario 2
+
+define variable first_name
+
+request first name from user and store this in first_name variable
+
+print first_name
+print "Hello, World"
+
+
+
+Scenario 3
+
+define number array
+
+loop 10 times taking a number each time and putting the input into the number array
+
+calculate the sum of of numbers inside the number array
+
+
+
+Scenario 4
+
+define grocery list of items as (apple, banana, pear, bread, butter)
+
+sort list of grocery items into alphabetical order using the sort() method
+
+loop over items in list
+	print current item in list
+	
+	
+Scenario 5
+
+define X, Y
+define S, A, P
+
+request user input for X
+request user input for Y
+
+calculate S by adding X to Y
+calculate A by dividing S by 2
+calculate P by multiplying X by Y
+
+print S
+print A
+print P

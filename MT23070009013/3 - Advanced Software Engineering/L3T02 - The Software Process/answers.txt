@@ -1,0 +1,21 @@
+1a - I think the waterfall systems works well for the anti-lock braking in a car, this is
+because the problem is defined, its very unlikely that the scope of this will change or 
+new requirements may be added later.
+
+1b - Probably pick incremental development here as this is something that likely needs testing
+as features and part of code are added later.
+
+1c - COTS, why reinvent the wheel for an accounting system.
+
+1d - Incremental development fits well here because this is a large system that will have many
+different moving parts, so having them released in phases would work well for feedback.
+
+2 - Incremental development is the most effective for businses software systems because it allows
+the development team and customer to move on requirements, features, etc etc, it also allows for
+early access style testing to be done by users to ensure that.  its flexible and can adapt during
+the development process.
+
+3 - Its a good thing to have two requirements sections in this process because during initial 
+requirements it might be that the problem wasnt defined well, or hadnt been decided, or something 
+additional was decided post initial requirements.  It gives both sides the opportunity to address
+design problems or features that may need changing before a real design is drawn up.

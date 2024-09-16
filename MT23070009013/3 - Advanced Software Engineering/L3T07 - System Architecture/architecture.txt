@@ -1,0 +1,13 @@
+- Layered - This would be good for an E-Commerce web application because you want to have layers of abstraction
+between yoor UI layer, the payment layer, each performing their own part.
+- Repository - Code IDE is a good example of this, allowing various components to access the same data at the
+same time.
+- Client Server - The World Wide Web is a very good example of this, because both components are connected
+via request/reply style connectors, or Client/Server.
+- Pipe and Filter - Unix scripting could be a good use for this, because components are broken down into smaller
+bits which can be piped into others.
+
+
+- Client/server and layered could be used, Google probably uses this method as a lot of their apps talk to each other
+but are independant of each other at the same time.
+- Another example might be 3d rendering, that your client side 3d renderer, also uses local batch pipe and filtering.

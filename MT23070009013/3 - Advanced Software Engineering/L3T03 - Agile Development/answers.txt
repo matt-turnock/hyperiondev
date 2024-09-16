@@ -1,0 +1,15 @@
+1 - The waterfall method differes from agile because agile allows you to be flexible
+to work on different things at the same time, many scopes of work.  Waterfall you are rigid
+and the activity you are on should be completed before moving onto the next.
+
+2 - Responding to change could get a team into trouble, as this could create scope screep if
+not monitored properly.
+
+3 - Agile is about being flexible and reactive to development, not having to stick 100% to a plan.
+
+4 - I think requirements change for a few reasons, fundnig could impact on if things are added or
+removed. Requirements may have been taken badly, so they then need changing. Someone else may take over
+the project and decide they want a slightly different direction, thus impacting the requirements.
+
+5 - Understanding what is required from a test means that the solution will be better suited to what
+the requirements will be.  It stops random problem happening that may not have been thought of.

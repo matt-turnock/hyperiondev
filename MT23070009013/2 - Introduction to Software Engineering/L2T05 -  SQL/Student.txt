@@ -1,0 +1,27 @@
+create table student (STU_NUM char(6),
+STU_SNAME varchar(15),
+STU_FNAME varchar(15),
+STU_INITIAL char(1),
+STU_STARTDATE date,
+COURSE_CODE char(3),
+PROJ_NUM int(2),
+PRIMARY KEY (STU_NUM)
+);
+
+insert into student (STU_NUM, STU_SNAME, STU_FNAME, STU_INITIAL, STU_STARTDATE, COURSE_CODE, PROJ_NUM) values
+(01, "Snow", "John", "E", "05-Apr-14", 201, 6);
+
+insert into student (STU_NUM, STU_SNAME, STU_FNAME, STU_INITIAL, STU_STARTDATE, COURSE_CODE, PROJ_NUM) values
+(02, "Stark", "Arya", "C", "12-Jul-17", 305, 11);
+
+select * from student where course_code = 305;
+
+update student set course_code = 304 where STU_NUM = 07;
+
+delete from student where STU_FNAME = "Jamie" and STU_SNAME = "Lannister" and STU_STARTDATE = "05-Sep-12" and PROJ_NUM = 2;
+
+update student set PROJ_NUM = 14 where STU_STARTDATE <= "01-Jan-16" and COURSE_CODE => 201;
+
+truncate table student;
+
+drop table student;

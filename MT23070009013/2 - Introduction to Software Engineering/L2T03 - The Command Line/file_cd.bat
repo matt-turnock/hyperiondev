@@ -1,0 +1,9 @@
+mkdir test
+mkdir test2
+mkdir test3
+cd test
+mkdir new_test
+mkdir new_test2
+mkdir new_test3
+rmdir new_test
+rmdir new_test2

@@ -1,0 +1,15 @@
+- I think the requirements should include the prices for destinations, but this isnt detailed in the existing requirements currently.
+- The systems requirements state that credit cards can be used, but they havent considered other options, like paying with cash.
+- It asks for a personal ID number, but the issue is here is that someone else could use the same identifier.  These should be generated
+automatically by the system so that these can be unique.
+- It also doesnt display times for the trips, only destinations.
+
+Non-functional requirements:
+
+- Usability:  This system should have an intuitive user interface, but also provide enough detail for the user.  This should include clear
+destinations with clear pricing.  There should be a terms and conditions information page within the booking system.
+- Reliability: The system should be checking if their is availibility of tickets before taking payment, or even better, not allowing users
+to select fully booked destination/times.
+- Performance: This would need to be able to cope with multiple machines servicing tickets, and ensuring they are all tied to the same
+database to ensure double bookings dont happen.
+- Security:  The application for security purposes will be controlled by predefined buttons, and data will be stored on an external database.
